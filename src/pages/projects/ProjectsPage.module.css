@@ -1,0 +1,15 @@
+.wrapper {
+    margin-top: 5.8rem;
+}
+
+.select-box{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projects-ul{
+    margin-top: 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}

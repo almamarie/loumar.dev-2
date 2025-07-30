@@ -12,7 +12,7 @@ const OtherProjects = () => {
       <h3>Other Noteworthy Projects</h3>
 
       <ul className={styles.projects}>
-        {OTHER_PROJECTS.slice(0, 6).map((project, index) => {
+        {OTHER_PROJECTS.slice(0, 10).map((project, index) => {
           return <SingleOtherProject key={index} project={project} />;
         })}
       </ul>
