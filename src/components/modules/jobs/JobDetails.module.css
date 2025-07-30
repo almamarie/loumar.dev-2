@@ -1,0 +1,23 @@
+.h3 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  color: #e6f1ff;
+}
+
+.at-sign {
+  color: #64ffda;
+}
+
+.duration {
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.achievements {
+  font-size: 1.4rem;
+}

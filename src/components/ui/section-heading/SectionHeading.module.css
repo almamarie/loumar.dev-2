@@ -1,0 +1,39 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.wrapper span {
+  color: #64ffda;
+  font-size: 2rem;
+}
+
+.wrapper h3 {
+  color: #e6f1ff;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.divider {
+  height: 1px;
+  /* width: 35rem; */
+  background-color: #233554;
+}
+
+@media (max-width: 54.5em) {
+  .wrapper h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 48.065em) {
+  .wrapper {
+    justify-content: space-between;
+  }
+  /* .divider {
+    width: 30rem;
+  } */
+}

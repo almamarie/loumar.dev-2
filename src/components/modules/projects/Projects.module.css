@@ -1,0 +1,9 @@
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.other-projects {
+  margin-top: 10rem;
+}

@@ -1,0 +1,96 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  font-size: 1.4rem;
+  font-weight: normal;
+
+  height: 6rem;
+  padding: 0 5rem;
+
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+
+  position: fixed;
+  top: -3rem;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #0a192f;
+}
+
+.name {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.name:hover{
+  color: var(--color-primary);
+}
+
+.nav {
+  letter-spacing: 1.1px;
+}
+
+.ul,
+.hidden-nav--ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.a:hover {
+  color: #64ffda;
+}
+
+.bullet {
+  color: #64ffda;
+  font-size: 1.2rem;
+}
+
+.menu-icon {
+  width: 3.6rem;
+  stroke: #64ffda;
+  cursor: pointer;
+
+  display: none;
+  visibility: hidden;
+}
+
+.hidden-nav {
+  position: fixed;
+  padding: 6rem 5rem;
+  margin: 0;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  background-color: #0a192f;
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden-nav--ul {
+  flex-direction: column;
+  align-items: baseline;
+}
+
+@media (max-width: 48.065em) {
+  .ul {
+    display: none;
+    visibility: hidden;
+  }
+  .menu-icon {
+    display: block;
+    visibility: visible;
+  }
+}

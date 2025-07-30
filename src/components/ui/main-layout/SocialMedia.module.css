@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.divider {
+  width: 1px;
+  height: 10rem;
+  background-color: #a8b2d1;
+}
+
+@media (max-width: 48.065em) {
+  .wrapper {
+    display: none;
+    visibility: hidden;
+  }
+}

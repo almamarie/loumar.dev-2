@@ -1,0 +1,16 @@
+.wrapper {
+  font-size: 1.6rem;
+  max-width: 60rem;
+}
+
+.li {
+  margin-bottom: 2rem;
+}
+
+/*  MAX-WIDTH 700px */
+@media (max-width: 43.75em) {
+  .wrapper {
+    font-size: 1.4rem;
+    max-width: 100%;
+  }
+}

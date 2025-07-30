@@ -1,0 +1,55 @@
+.wrapper {
+  padding: 2.5rem;
+  background-color: #112240;
+  border-radius: 4px;
+  color: #a8b2d1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.wrapper:hover {
+  transform: translateY(-0.5rem);
+}
+
+.wrapper:hover .header {
+  color: #64ffda;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.folder svg {
+  width: 4rem;
+  height: 4rem;
+  stroke: #64ffda;
+}
+
+.external svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.external svg:hover {
+  stroke: #64ffda;
+}
+
+.header {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #e6f1ff;
+}
+
+.description {
+  font-size: 1.4rem;
+}
+
+.technologies {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 1rem;
+}

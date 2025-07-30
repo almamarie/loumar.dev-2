@@ -1,0 +1,82 @@
+.wrapper {
+  margin-top: 22.05rem;
+}
+
+.greeting {
+  color: #64ffda;
+}
+
+.wrapper h2,
+.wrapper h3 {
+  font-weight: 700;
+}
+
+.wrapper h2 {
+  font-size: 6.8rem;
+  color: #ccd6f6;
+}
+
+.wrapper h3 {
+  font-size: 6.4rem;
+}
+
+.wrapper p {
+  max-width: 50rem;
+  font-size: 1.6rem;
+}
+
+.greeting,
+.wrapper h2 {
+  margin-bottom: 1rem;
+}
+
+.wrapper h3,
+.text {
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 82.3125em) {
+  .wrapper h2 {
+    font-size: 5.8rem;
+  }
+  .wrapper h3 {
+    font-size: 5.4rem;
+  }
+}
+
+@media (max-width: 70.5em) {
+  .wrapper h2 {
+    font-size: 4.8rem;
+  }
+  .wrapper h3 {
+    font-size: 4.4rem;
+  }
+}
+
+@media (max-width: 48.065em) {
+  .wrapper {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 58em) {
+  .wrapper h2 {
+    font-size: 3.8rem;
+  }
+  .wrapper h3 {
+    font-size: 3.4rem;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 38.3em) {
+  .wrapper h2 {
+    font-size: 3rem;
+  }
+  .wrapper h3 {
+    font-size: 2.4rem;
+  }
+}

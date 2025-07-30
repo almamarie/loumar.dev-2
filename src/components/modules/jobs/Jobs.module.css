@@ -1,0 +1,30 @@
+.wrapper {
+  max-width: 75rem;
+}
+
+.details {
+  display: flex;
+  gap: 1rem;
+}
+
+.job-details {
+  margin-top: 1rem;
+  /* overflow: scroll; */
+}
+
+@media (max-width: 61.25em) {
+  .wrapper ul {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .details {
+    flex-direction: column;
+  }
+
+  .titles {
+    display: flex;
+    overflow: scroll;
+  }
+}

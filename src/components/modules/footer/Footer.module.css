@@ -1,0 +1,18 @@
+.wrapper {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.git {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+@media (max-width: 48.065em) {
+  .wrapper {
+    max-width: 100%;
+  }
+}
