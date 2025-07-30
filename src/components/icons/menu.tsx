@@ -1,8 +1,8 @@
-const IconMenu: React.FC<{ className: string; onClick?: Function }> = (
+const IconMenu: React.FC<{ className: string; onClick?: () => void }> = (
   props
 ) => {
   const clickHandler = () => {
-    props.onClick && props.onClick();
+    if (props.onClick) props.onClick();
   };
   return (
     <svg

@@ -10,11 +10,11 @@ function MainHeader() {
   const router = useRouter();
 
   const openHiddenNav = () => {
-    setShowHiddenNav((prev) => true);
+    setShowHiddenNav(() => true);
   };
 
   const closeHiddenNav = () => {
-    setShowHiddenNav((prev) => false);
+    setShowHiddenNav(() => false);
   };
 
   const navigateToHomePage = () => {

@@ -3,12 +3,12 @@ import styles from "./Button.module.css";
 const Button: React.FC<{
   text?: string;
   type: "button" | "submit";
-  onClick?: Function;
+  onClick?: () => void;
   children?: React.ReactNode;
-  className?: String;
+  className?: string;
 }> = (props) => {
   const clickHandler = () => {
-    props.onClick && props.onClick();
+    if (props.onClick) props.onClick();
   };
 
   // const propsClassName = props.cl
